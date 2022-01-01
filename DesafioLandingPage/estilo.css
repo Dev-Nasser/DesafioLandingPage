@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(235, 214, 214);
+
+
+}
+
+#header{
+    background-color: rgb(218, 182, 182);
+    height: 80px;
+    position: relative;
+
+}
+
+#menu{
+    display: inline-block;
+    position: relative;
+}
+
+
+p {
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 3px;            
+}
+
+
+#nomebot{
+    font-family: 'Pushster', cursive;
+    font-size: 40px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#dado{
+    height: 40px;
+    width: 40px;
+    
+}
+
+
+#nomebotcentro{
+    font-family: 'Pushster', cursive;
+    font-size: 80px;
+    position: relative;
+    bottom: 530px;
+    margin-left: 190px;
+}
+
+#menu{
+    position: relative;
+    margin-left: 350px;
+    margin-bottom: 300px;
+
+}
+
+
+#item-menu hover{
+    font-weight: 100px;
+    color:red;
+}
+
+#item-menu{
+    padding: 20px;
+    display: inline-block;
+    position: relative;
+    bottom: 45px;
+    left: 360px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+
+#dado2{
+    position: relative;
+    left: 850px;
+    width: 290px;
+    height: 290px;
+    bottom: 350px;
+    margin-top: 30px;
+}
+
