@@ -18,10 +18,13 @@ body{
 
 
 p {
-    margin-bottom: 50px;
+     margin-bottom: 38px;
     font-size: 15px;
-    font-family: 'Courier New', Courier, monospace;
-    margin-left: 3px;            
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 5px;
+    position: relative;
+    top: 7px;
+
 }
 
 
@@ -44,7 +47,7 @@ p {
     font-family: 'Pushster', cursive;
     font-size: 80px;
     position: relative;
-    bottom: 530px;
+    bottom: 459px;
     margin-left: 190px;
 }
 
@@ -74,10 +77,19 @@ p {
 
 #dado2{
     position: relative;
-    left: 850px;
-    width: 290px;
-    height: 290px;
-    bottom: 350px;
+    left: 800px;
+    width: 200px;
+    height: 200px;
+    bottom: 300px;
     margin-top: 30px;
 }
 
+#botao{
+    background-color: white;
+    position: relative;
+    margin-left: 20px;
+    width: 120px;
+    bottom: 10px;
+    border-radius: 20px;
+
+}
