@@ -1,5 +1,7 @@
 body{
     background-color: rgb(235, 214, 214);
+    max-width: 1500px;
+    min-width: 320px;
 
 
 }
@@ -30,9 +32,9 @@ p {
 
 #nomebot{
     font-family: 'Pushster', cursive;
-    font-size: 40px;
+    font-size: 35px;
     position: absolute;
-    margin-left: 50px;
+    margin-left: 200px;
     margin-top: 30px;
 }
 
@@ -49,6 +51,9 @@ p {
     position: relative;
     bottom: 459px;
     margin-left: 190px;
+    max-width: 1500px;
+    min-width: 320px;
+    
 }
 
 #menu{
@@ -93,3 +98,121 @@ p {
     border-radius: 20px;
 
 }
+
+@media (max-width : 1092px){
+    #item-menu{
+        left: 176px;
+    }
+
+}
+
+@media (max-width :905px){
+    #dado2{
+        left: 655px;
+    
+    }
+    #item-menu{
+        display: inline;
+        padding: 22px;
+        position: relative;
+        top: 30px;
+        left: 185px;
+        
+    }
+
+    #nomebot{
+        font-family: 'Pushster', cursive;
+        font-size: 56px;
+        position: absolute;
+        margin-left: 250px;
+        margin-top: 40px;
+    }
+
+    #dado2{
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: 29px;
+        right: 50px;
+        left: 484px;
+
+        
+    }
+
+    #nomebotcentro{
+        position: relative;
+        bottom: auto;
+        right: -16px;
+        font-size: 60px;
+    }
+
+    #menu{
+        margin-left: 20px;
+
+
+    }
+
+    #header{
+        height:117px;
+        width:103%;
+
+    }
+}
+
+@media (max-width : 627px){
+
+    #nomebot{
+        position: relative;
+        right: 36px;
+        font-size: 36px;
+        top: 6px;
+
+    }
+
+    #item-menu{
+
+        display: inline;
+        padding: 15px;
+        position: relative;
+        top: 21px;
+        left: 121px;
+        font-size: 18px;
+    }
+
+    #header{
+        height:60px;
+
+    }
+
+    #nomebotcentro{
+        position: relative;
+        bottom: auto;
+        right: 58px;
+        font-size: 60px;
+    }
+
+    p{
+        font-size:  13px;
+
+
+    }
+
+    }
+    
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
