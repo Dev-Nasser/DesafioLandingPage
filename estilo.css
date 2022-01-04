@@ -10,6 +10,7 @@ body{
     background-color: rgb(218, 182, 182);
     height: 80px;
     position: relative;
+    width: 100%;
 
 }
 
@@ -154,7 +155,7 @@ p {
 
     #header{
         height:117px;
-        width:103%;
+        width: auto;
 
     }
 }
@@ -181,6 +182,8 @@ p {
 
     #header{
         height:60px;
+        width: auto;
+
 
     }
 
@@ -249,13 +252,44 @@ p {
 
 
     }
-    }
+
+    @media (max-width: 360px){
+        #nomebotcentro{
+            position: absolute;
+            right: -29px;
+            bottom: 317px;
+            font-size: -2px;
+            margin-bottom: 27px;
+        }
+
+        footer{
+            display:none;
 
 
+        }
+
+        #botao{
+            position: relative;
+            bottom: -6px;
+            left: 19px;
+}
+        #item-menu{
+            font-size: 15px;
+
+        }
+        #nomebot{
+            font-size: 20px;
+            position: relative;
+            top: 25px;
+            right: 13px;
+        }
+
+        #dado{
+            display:none;
+
+        }
+
+        }
 
 
-
-
-
-
-
+    }    
